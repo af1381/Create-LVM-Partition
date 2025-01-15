@@ -20,7 +20,7 @@ In the fdisk environment, follow these steps:
 
 
 # Step 3: Set the partition as a Physical Volume (PV):
-  <mark>To use LVM, you need to convert the partition to a physical volume (PV):</mark>:
+  <mark>To use LVM, you need to convert the partition to a physical volume (PV):</mark>
 
     sudo pvcreate /dev/sdb1
 
